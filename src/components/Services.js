@@ -50,7 +50,7 @@ export default function Services() {
 
   return (
     <div>
-      <h2 className="text-3xl font-semibold mb-4">Why Choose Us ?</h2>
+      <h2 className="text-white bg-gray-900 text-3xl font-semibold mb-4">Why Choose Us ?</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <ServiceCard key={index} {...service} />

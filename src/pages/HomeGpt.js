@@ -2,103 +2,20 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import CtaSection from './CTA';
 import Services from '../components/Services.js';
+import MyComponent from './HomePageServices';
+import ServicesList from './HomePageServices';
 const Home = () => {
   return (
     <>
     <Navbar />
+    <div className="relative isolate overflow-hidden bg-gray-900">
     <CtaSection></CtaSection>
-    <div className="bg-gray-100 py-4">
+    
+    <div className="py-4">
       <section className="container mx-auto py-12">
       <Services></Services>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Additional Services */}
-          <div className="col-span-3 mt-8">
-            <h2 className="text-3xl font-semibold mb-4">Our Services</h2>
-            <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <li className="bg-white p-4 rounded-lg shadow-md">
-                {/* Service Icon or Image Placeholder */}
-                <div className="text-3xl mb-2">&#128293;</div>
-                <h3 className="text-xl font-semibold mb-2">Repairs & Maintenance</h3>
-                <p className="text-gray-700">
-                  We provide round-the-clock access to affordable and skilled tradespeople.
-                </p>
-              </li>
-
-              <li className="bg-white p-4 rounded-lg shadow-md">
-                {/* Service Icon or Image Placeholder */}
-                <div className="text-3xl mb-2">&#128219;</div>
-                <h3 className="text-xl font-semibold mb-2">Property Inspections</h3>
-                <p className="text-gray-700">
-                  Detailed reports are conducted every three months, covering thorough inspections and maintenance issues.
-                </p>
-              </li>
-
-              <li className="bg-white p-4 rounded-lg shadow-md">
-                {/* Service Icon or Image Placeholder */}
-                <div className="text-3xl mb-2">&#128194;</div>
-                <h3 className="text-xl font-semibold mb-2">Rent Collection</h3>
-                <p className="text-gray-700">
-                  We have a strict policy of not tolerating any delay in rental payments.
-                </p>
-              </li>
-
-              <li className="bg-white p-4 rounded-lg shadow-md">
-                {/* Service Icon or Image Placeholder */}
-                <div className="text-3xl mb-2">&#128196;</div>
-                <h3 className="text-xl font-semibold mb-2">Property Knowledge</h3>
-                <p className="text-gray-700">
-                  Our team of experienced property managers are well-versed in property regulations.
-                </p>
-              </li>
-
-              <li className="bg-white p-4 rounded-lg shadow-md">
-                {/* Service Icon or Image Placeholder */}
-                <div className="text-3xl mb-2">&#128247;</div>
-                <h3 className="text-xl font-semibold mb-2">Property Marketing</h3>
-                <p className="text-gray-700">
-                  We employ effective strategies for property advertising and tenant attraction.
-                </p>
-              </li>
-
-              <li className="bg-white p-4 rounded-lg shadow-md">
-                {/* Service Icon or Image Placeholder */}
-                <div className="text-3xl mb-2">&#128274;</div>
-                <h3 className="text-xl font-semibold mb-2">Tenancy Tribunal Representation</h3>
-                <p className="text-gray-700">
-                  Our knowledgeable and experienced staff will represent you at the Tenancy Tribunal.
-                </p>
-              </li>
-
-              <li className="bg-white p-4 rounded-lg shadow-md">
-                {/* Service Icon or Image Placeholder */}
-                <div className="text-3xl mb-2">&#128297;</div>
-                <h3 className="text-xl font-semibold mb-2">Methamphetamine Testing</h3>
-                <p className="text-gray-700">
-                  We prioritize the protection of your investment by taking proactive measures.
-                </p>
-              </li>
-
-              <li className="bg-white p-4 rounded-lg shadow-md">
-                {/* Service Icon or Image Placeholder */}
-                <div className="text-3xl mb-2">&#128203;</div>
-                <h3 className="text-xl font-semibold mb-2">End of Year Financial Assistance</h3>
-                <p className="text-gray-700">
-                  We diligently backup all data for end-of-year financials.
-                </p>
-              </li>
-
-              <li className="bg-white p-4 rounded-lg shadow-md">
-                {/* Service Icon or Image Placeholder */}
-                <div className="text-3xl mb-2">&#128102;</div>
-                <h3 className="text-xl font-semibold mb-2">Tenant Screening</h3>
-                <p className="text-gray-700">
-                  We conduct thorough credit and background checks on prospective tenants.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
       </section>
+      <ServicesList></ServicesList>
       <section className="container mx-auto py-12">
         <div className="text-center">
           <h2 className="text-3xl font-semibold text-gray-900 mb-4">Contact Us</h2>
@@ -195,6 +112,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+    </div>
     </div>
     </>
     

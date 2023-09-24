@@ -20,7 +20,7 @@ const Home = () => {
         <div className="text-center">
           <h2 className="text-3xl font-semibold text-gray-900 mb-4">Contact Us</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Have questions or need assistance? Contact us below.
+            Have questions or need assistance? Contact us below !
           </p>
         </div>
         <div className="flex justify-center items-center">

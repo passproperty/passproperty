@@ -8,12 +8,6 @@ const Footer = () => {
           <h2 className="text-2xl font-semibold">Rental Doctors</h2>
           <p className="text-sm">Exceptional Auckland Property Management Services</p>
         </div>
-        <div className="flex justify-center md:justify-end space-x-6">
-          <a href="#" className="hover:text-gray-400">Home</a>
-          <a href="#" className="hover:text-gray-400">Services</a>
-          <a href="#" className="hover:text-gray-400">About Us</a>
-          <a href="#" className="hover:text-gray-400">Contact</a>
-        </div>
       </div>
       <div className="mt-6 text-center">
         <p className="text-sm">&copy; {new Date().getFullYear()} Rental Doctors - Auckland, New Zealand</p>

@@ -1,5 +1,5 @@
 {
-  "name": "passproperty",
+  "name": "rentaldoctors",
   "homepage": "https://passproperty.github.io/passproperty",
   "version": "0.1.0",
   "private": true,
@@ -50,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "tailwindcss": "^3.3.3"
   }
 }
